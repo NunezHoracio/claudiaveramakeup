@@ -86,7 +86,7 @@
   }
 
   .about-me{
-    margin-bottom: 300px;
+     margin-bottom: 300px;
   }
 
   .about-me__container{
@@ -231,7 +231,11 @@
   .gallery img:hover {
     filter: grayscale(0);
   }
-    
+   
+  .reference-card{
+    width: 500px;
+  }
+
   .reference-icon {
     font-size: 2rem;
   }
@@ -252,10 +256,34 @@
     color: var(--pink);
   }
 
-  @media (max-width: 1308px) {
+  @media (max-width: 1400px) {
+
+    .about-me__info{
+      width: 80%;
+      padding: 10px;
+    }
+
+    .about-me .card-body{
+      padding: 10px 20px 5px 90px ;
+    }
+
+    .about-me__photo{
+      max-width: 25%;
+      left: 10px;
+    }
+  }
+
+  @media (max-width: 1295px) {
 
     .services .card:last-child {
       margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 1008px) {
+
+    .nav-link {
+      padding-left: 0 !important; 
     }
   }
 
@@ -288,11 +316,15 @@
 
   @media (max-width: 768px) {
 
-    .seccion-title{
+    .seccion-title, .about-me .card-title{
       text-align: center;
     }
 
     .about-me__photo{
-      top: -10%;
+      top: -6%;
+    }
+
+    .about-me .card-body{
+      padding: 80px 30px 50px 30px;
     }
   }
