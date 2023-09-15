@@ -17,11 +17,13 @@ El sitio web incluye diferentes secciones:
 
 - **Sobre mi:** Donde Claudia nos cuenta un poco sobre ella.
 
+- **Mi Equipo:** Vamos a poder ver a las personas que integran el grupo de trabajo.
+
 - **Servicios:** Aquí podremos ver los diferentes tipos de servicio que ofrecen con sus respectivos detalles.
 
-- **Mi Equipo:** Vamos a poder ver a las personas que integran el grupo de trabajo
-
 - **Trabajos:** Una galería de fotos que mostrarán a la audiencia algunos trabajos que han realizado.
+
+- **Referencias:** Mensajes que hemos recibido de nuestros clientes.
 
 ## Contacto
 
