@@ -76,15 +76,82 @@
     100% { text-shadow: 0 0 3px rgba(0, 0, 0, .6); }
   }
   
-  .content-banner h3 {
+  .content-banner h2 {
     color: var(--pink);
     text-shadow: 0 0 10px rgba(0, 0, 0, .6);
   }
   
   .seccion {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
+  .section-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0.5em;
+  }
+
+  .about-me__container{
+    width: 85%;
+  }
+  
+  .about-me__photo{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 20px;
+    left: -130px;
+  }
+
+  .about-me__photo img{
+    width: 250px;
+  }
+
+  .about-me__info{
+    padding: 30px 30px 30px 130px;
+  }
+
+  .card-text {
+    color: var(--dark);
+  }
+
+  .social-icons i {
+    font-size: 1.3em;
+    margin: 0.5em;
+    color: var(--pink);
+    cursor: pointer;
+  }
+
+  .social-btn:hover i {
+    color: var(--dark-pink);
+  }
+
+  .card-title {
+    font-weight: 700;
+    color: var(--dark-pink);
+  }
+
+  .member-img{
+    width: 200px;
+  }
+
+  @media (max-width: 991px){
+
+    .about-me__container{
+      width: 100%;
+    }
+
+    .about-me__photo{
+      top: -70px;
+      left: 60%;
+    }
+
+    .about-me__info{
+      padding: 150px 30px 30px;
+    }
+  }
+
+/*
   .about-me{
      margin-bottom: 300px;
   }
@@ -327,4 +394,4 @@
     .about-me .card-body{
       padding: 80px 30px 50px 30px;
     }
-  }
+  }*/
