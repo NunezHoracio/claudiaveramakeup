@@ -47,7 +47,7 @@
     color: var(--dark-pink);
   }
 
-  .call-to-action{
+  .call-to-action, .card-body button{
     font-weight: 700;
   }
   
@@ -111,14 +111,14 @@
     padding: 30px 30px 30px 130px;
   }
 
-  .card-text {
+  .info-text{
     color: var(--dark);
   }
 
   .social-icons i {
     font-size: 1.3em;
     margin: 0.5em;
-    color: var(--pink);
+    color: whitesmoke;
     cursor: pointer;
   }
 
@@ -128,11 +128,74 @@
 
   .card-title {
     font-weight: 700;
+    font-size: 1.1em;
     color: var(--dark-pink);
   }
 
   .member-img{
     width: 200px;
+  }
+
+  .member__name{
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--dark);
+  }
+
+  .member__rol{
+    font-size: .9em;
+  }
+
+  .gallery {
+    columns: 5 300px;
+    column-gap: 1em;
+    padding: 1em;
+    transition: .5s;
+  }
+  
+  .gallery:hover img {
+    filter: grayscale(1);
+  }
+  
+  .gallery img {
+    margin-bottom: 1em;
+    transition: .5s;
+    outline: 5px solid white;
+  }
+  
+  .gallery img:hover {
+    filter: grayscale(0);
+  }
+
+  .reference-card{
+    width: 500px;
+  }
+
+  .reference-icon {
+    font-size: 2rem;
+  }
+  
+  footer {
+    background-color: var(--dark);
+    color: var(--light-gray);
+    height: 80px;
+  }
+
+  .footer-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--light-gray);
+  }
+
+  .footer-link:hover{
+    color: var(--pink);
+  }
+
+  @media (max-width: 1024px) {
+
+    .nav-link {
+      padding-left: 0 !important; 
+    }
   }
 
   @media (max-width: 991px){
@@ -143,11 +206,19 @@
 
     .about-me__photo{
       top: -70px;
-      left: 60%;
+      left: 57%;
+    }
+
+    .about-me__photo img{
+      width: 200px;
     }
 
     .about-me__info{
       padding: 150px 30px 30px;
+    }
+
+    .gallery {
+      columns: 5 150px;
     }
   }
 
@@ -196,7 +267,7 @@
     color: var(--dark);
   }
   
-  .about-me .card-text {
+  .about-me .info-text{
     color: var(--dark);
     font-size: 1em;
   }
@@ -299,29 +370,7 @@
     filter: grayscale(0);
   }
    
-  .reference-card{
-    width: 500px;
-  }
-
-  .reference-icon {
-    font-size: 2rem;
-  }
   
-  footer {
-    background-color: var(--dark);
-    color: var(--light-gray);
-    height: 80px;
-  }
-
-  .footer-link{
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--light-gray);
-  }
-
-  .footer-link:hover{
-    color: var(--pink);
-  }
 
   @media (max-width: 1400px) {
 
