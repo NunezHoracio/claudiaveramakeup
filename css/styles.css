@@ -18,7 +18,7 @@
   }
   
   .main-container {
-    background-image: linear-gradient(to right top, #f2b5b6, #dfa0a6, #cb8c96, #b87887, #a46578);
+    background-image: linear-gradient(to right top, #a46578, #b37383, #c2828e, #d0919a, #dfa0a6, #dfa0a6, #dfa0a6, #dfa0a6, #d0919a, #c2828e, #b37383, #a46578);
   }
   
   .navbar-brand {
@@ -133,7 +133,7 @@
   }
 
   .member-img{
-    width: 200px;
+    width: 250px;
   }
 
   .member__name{
@@ -219,5 +219,25 @@
 
     .gallery {
       columns: 5 150px;
+    }
+  }
+
+  @media (max-width: 580px){
+
+    html {
+      font-size: 15px;
+    }
+
+    .about-me__photo{
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+    .about-me__info{
+      padding: 230px 30px 30px;
+    }
+
+    .about-me__info .section-title{
+      text-align: center;
     }
   }
