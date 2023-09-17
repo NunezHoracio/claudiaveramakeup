@@ -101,6 +101,7 @@
     position: absolute;
     top: 20px;
     left: -130px;
+    z-index: 10;
   }
 
   .about-me__photo img{
@@ -109,6 +110,10 @@
 
   .about-me__info{
     padding: 30px 30px 30px 130px;
+  }
+
+  .about-me__info .card-body{
+    border: none;
   }
 
   .info-text{
@@ -239,5 +244,12 @@
 
     .about-me__info .section-title{
       text-align: center;
+    }
+  }
+
+  @media (max-width: 350px){
+
+    html {
+      font-size: 12px;
     }
   }
