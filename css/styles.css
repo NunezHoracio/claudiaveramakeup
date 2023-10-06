@@ -16,11 +16,11 @@
   html {
     font-size: 18px;
   }
-  
-  .main-container {
+
+  body{
     background-image: linear-gradient(to right top, #a46578, #b37383, #c2828e, #d0919a, #dfa0a6, #dfa0a6, #dfa0a6, #dfa0a6, #d0919a, #c2828e, #b37383, #a46578);
   }
-  
+   
   .navbar-brand {
     font-size: 1.5em;
     color: var(--dark-pink);
