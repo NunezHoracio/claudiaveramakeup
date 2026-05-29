@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}   
+
+/* REVEAL ANIMATION */
+.reveal-pro {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+.reveal-pro.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* LOADER (opcional) */
+#loader {
+  position: fixed;
+  inset: 0;
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+}
+
+/* Fade del texto */
+@keyframes fade {
+  from { opacity: 0; letter-spacing: 0.5em; }
+  to { opacity: 1; letter-spacing: 0.3em; }
+}
+
+.animate-fade {
+  animation: fade 1s ease forwards;
+}
+
+/* Línea animada */
+@keyframes line {
+  0% { width: 0; }
+  50% { width: 100%; }
+  100% { width: 0; margin-left: auto; }
+}
+
+.animate-line {
+  animation: line 1.4s ease-in-out infinite;
+}
+
+/* Ocultar loader */
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(6px);
+  transition: all 0.6s ease;
+}
+

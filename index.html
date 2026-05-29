@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNBNDY1NzgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1jaXJjbGUtaWNvbiBsdWNpZGUtY2lyY2xlIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjwvc3ZnPg==">
+    <title>Claudia Vera - Makeup & Hair</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-[#FAFAFA] text-[#2D2D2D] font-[Poppins]">
+    <div id="loader" class="fixed inset-0 bg-[#FAFAFA] flex items-center justify-center z-50">
+        <div class="text-center">
+
+            <h1 class="text-xl tracking-[0.3em] font-light text-[#2D2D2D] mb-4 animate-fade">
+                CLAUDIA VERA
+            </h1>
+
+            <div class="w-24 h-[2px] bg-[#EADFE3] overflow-hidden mx-auto">
+                <div class="h-full bg-[#A46578] animate-line"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-xl font-semibold text-[#A46578]">
+                <a href="#hero">Claudia Vera</a>
+            </h1>
+
+            <nav class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-[#A46578]">Sobre mí</a>
+                <a href="#services" class="hover:text-[#A46578]">Servicios</a>
+                <a href="#works" class="hover:text-[#A46578]">Trabajos</a>
+                <a href="#testimonials" class="hover:text-[#A46578]">Opiniones</a>
+            </nav>
+
+            <a href="https://wa.me/5493816648999?text=Hola! Quiero consultar disponibilidad para un evento"
+                class="bg-[#A46578] text-white px-5 py-2 rounded-full shadow hover:scale-105 transition">
+                Reservar
+            </a>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="min-h-screen flex items-center justify-center text-center px-6">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-6xl font-semibold leading-tight">
+                Resaltá tu belleza<br>
+                <span class="font-light text-[#A46578] text-accent">con estilo profesional</span>
+            </h1>
+
+            <p class="text-muted mt-4">
+                Estamos listas para hacerte lucir espectacular y elevar tu confianza al máximo nivel
+            </p>
+
+            <a href="https://wa.me/5493816648999?text=Hola! Quiero consultar disponibilidad para un evento"
+                class="mt-5 inline-block border border-[#A46578] text-[#A46578] px-8 py-3 rounded-full hover:bg-[#A46578] hover:text-white transition">
+                Reservar turno
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20 px-6  reveal-pro">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+            <img src="./images/perfil.jpeg" class="rounded-2xl shadow-xl">
+
+            <div>
+                <h2 class="text-4xl font-medium mb-4">Sobre mí</h2>
+
+                <p class="text-gray-500 mb-6">Soy maquilladora profesional con más de 12 años de experiencia y hace un
+                    tiempo
+                    incorporé peinados al servicio.</p>
+                <p class="text-gray-500 mb-6">Mi verdadera pasión es el maquillaje social, ese que realza la belleza de
+                    cada
+                    persona.</p>
+                <p class="text-gray-500 mb-6">Tengo una especialización en Makeup de alto impacto, ¡donde la creatividad
+                    y
+                    la audacia
+                    se
+                    fusionan para crear looks sorprendentes!</p>
+                <p class="text-gray-500 mb-6">Desde el 2022 tengo mi propio equipo en el que se encuentran una
+                    maquilladora
+                    y dos
+                    peinadoras más.</p>
+                <p class="text-gray-500 mb-6">Ser amante de las redes sociales me ayuda a estar actualizada con las
+                    ultimas
+                    tendencias de maquillaje y peinado tanto de Argentina como del mundo.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 px-6 bg-white reveal-pro">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-light tracking-tight mb-2">Nuestros Servicios</h2>
+            <div class="w-12 h-1 bg-black mx-auto mb-16"></div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="makeup">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="mirror-round" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Maquillaje Social</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="hair">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="spray-can" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Peinado Social</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="impact">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="sparkles" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Alto Impacto</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="brows">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="eye-closed" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Perfilado de Cejas</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="selfmakeup">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="presentation" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Talleres</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+
+                <div class="service-card group relative p-10 rounded-3xl border border-gray-100 bg-white hover:border-black transition-all duration-500 cursor-pointer reveal-pro"
+                    data-service="express">
+                    <div
+                        class="mb-6 flex justify-center text-gray-400 group-hover:text-black transition-colors duration-500">
+                        <i data-lucide="timer" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-medium tracking-wide">Pelito Express</h3>
+                    <p class="text-sm text-gray-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Ver
+                        detalles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKS -->
+    <section id="works" class="py-20 px-6 reveal-pro">
+        <div class="max-w-6xl mx-auto text-center">
+
+            <h2 class="text-4xl font-medium mb-4">Trabajos</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="./images/work-1.jpg" class="rounded-xl hover:scale-105 hover:shadow-xl transition">
+                <img src="./images/work-2.jpg" class="rounded-xl hover:scale-105 hover:shadow-xl transition">
+                <img src="./images/work-3.jpeg" class="rounded-xl hover:scale-105 hover:shadow-xl transition">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-20 text-center">
+
+        <h2 class="text-3xl font-light mb-4">
+            Seguinos en Instagram
+        </h2>
+
+        <p class="text-gray-500 mb-6">
+            Para ver más trabajos, tips y looks reales
+        </p>
+
+        <a href="https://www.instagram.com/claudiaveramakeup/" target="_blank" class="text-[#A46578] font-semibold">
+            @claudiaveramakeup →
+        </a>
+
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="py-20 px-6 bg-[#FAFAFA] reveal-pro">
+        <div class="max-w-6xl mx-auto text-center">
+
+            <h2 class="text-4xl font-medium mb-4">Opiniones</h2>
+            <p class="text-sm text-gray-400 mb-12">
+                +200 clientas nos han elegido ✨
+            </p>
+
+            <div class="font-light grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-1">
+                    "La verdad impecable el make up, duró toda la noche y resistió la lluvia"
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-2">
+                    "Una genia Clau! Me encantó... Intacto el maquillaje toda la noche. Muchas gracias."
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-3">
+                    "A mi madre y a mí nos duró el peinado y el maquillaje hasta el otro día! Sin exagerar!! Lo juro!"
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-4">
+                    "Muchas muchas gracias!! Quedó bella mi hija. Excelente trabajo. Muy profesionales"
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-5">
+                    "Holis Clau, te hablaba para darte las gracias, muy bello el maquillaje y el peinado me re duró toda
+                    la noche y la atención de las 2 hermoso. Mil millones de gracias"
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow reveal-pro delay-6">
+                    "Todos alagaron nuestros maquillajes"
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#A46578] text-white py-10 text-center border-t border-[#EADFE3] mt-20">
+
+        <p class="text-sm">
+            © <span id="year"></span> Claudia Vera Makeup & Hair
+        </p>
+
+        <p class="text-xs mt-2 tracking-wider">
+            Desarrollado por
+            <a href="https://github.com/NunezHoracio" target="_blank" class="hover:opacity-70 transition">
+                Horacio Nuñez
+            </a>
+        </p>
+
+    </footer>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/5493816648999"
+        class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition">
+        💬
+    </a>
+
+    <div id="modal"
+        class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center opacity-0 pointer-events-none transition duration-300 z-50">
+
+        <div class="bg-white max-w-lg w-full mx-4 p-8 rounded-2xl shadow-xl relative transform scale-95 transition duration-300"
+            id="modalContent">
+
+            <button id="closeModal" class="absolute top-4 right-4 text-gray-400 hover:text-black text-xl">
+                ✕
+            </button>
+
+            <h2 id="modalTitle" class="text-2xl font-medium mb-4"></h2>
+
+            <p id="modalText" class="text-gray-500 leading-relaxed"></p>
+
+            <a id="modalCTA" href="#" target="_blank"
+                class="inline-block mt-6 border border-[#A46578] text-[#A46578] px-6 py-2 rounded-full hover:bg-[#A46578] hover:text-white transition">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+
+</html>
