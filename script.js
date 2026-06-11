@@ -62,7 +62,11 @@ const servicesData = {
   express: {
     title: "Pelito Express",
     text: "Solución rápida y eficiente para tu peinado en menos de 30 minutos.",
-  }
+  },
+  coffee: {
+    title: "Coffee Break",
+    text: "Un espacio de relajación y belleza. Disfrutá de un café mientras te preparamos para tu evento. A cargo de @victorianocoffee",
+  },
 };
 
 // ABRIR MODAL
